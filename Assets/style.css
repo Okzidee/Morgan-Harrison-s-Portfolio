@@ -53,6 +53,9 @@ section h2 {
 
 /* Project styles */
 .project {
+  display:flex;
+  align-items:center ;
+  justify-content: left;
   border: 1px solid ;
   padding: 10px;
   margin-bottom: 20px;
@@ -66,9 +69,19 @@ section h2 {
 .project img {
   width: 150px;
   height: 150px;
-  padding-right:400px;
-  
 
+}
+
+#project {
+  width: 185px;
+  height:185px;
+  position:absolute;
+  right:600px;
+
+}
+
+.project div {
+  width:50%;
 }
 
 /* Skills list styles */
